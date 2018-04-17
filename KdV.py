@@ -13,7 +13,7 @@ epsilon = h/1000
 
  
 def n(x, t):
-	return 3*(x - np.sqrt(g*h0*t))/h0
+	return 3*(x - np.sqrt(g*h0)*t)/h0
 	
 def tauf(t):
 	return (9./2)*(np.sqrt(g/h0))*t
