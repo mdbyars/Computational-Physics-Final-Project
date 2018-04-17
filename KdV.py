@@ -51,7 +51,7 @@ Sp[N] = Slo
 #Main loop
 tau = 0.0
 while tau < tauend:
-	for i in range(1, N-2):
+	for i in range(1, N-1):
 	#Calculate the new values of S
 		"""print 'first term',S[i]
 		print '2nd term',(h*S[i]/(2*a))*(S[i+1] - S[i-1])
